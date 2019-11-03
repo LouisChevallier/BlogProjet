@@ -1,5 +1,5 @@
 <?php
-
+/*
 $requestedPage = '/';
 
 if (isset($_SERVER['REQUEST_URI'])) {
@@ -15,5 +15,6 @@ switch ($requestedPage[0]) {
         break;
     default:
         require_once('View/error.php');
-}
+}*/
+header ('location: Controller/posts.php');
 ?>
