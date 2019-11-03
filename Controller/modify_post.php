@@ -32,7 +32,7 @@ if(isset($_GET['id']) OR is_numeric($_GET['id'])){
             $updated = updatePost($title, $content, $idCategory, $idPost);
 
             $success = 'Votre article a été modifié';
-            header ('location: ../View/posts.php');
+            header ('location: ../Controller/posts.php');
         }
     }
 }
